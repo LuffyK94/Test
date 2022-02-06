@@ -1,4 +1,4 @@
-public class SetArray {
+public class SetArrayInt {
 
     private int size=1;
     private int[] listA= new int[size];
@@ -57,7 +57,7 @@ public class SetArray {
 
     public static void main(String[] args){
 
-        SetArray setArray = new SetArray();
+        SetArrayInt setArray = new SetArrayInt();
         setArray.addElement(1);
         setArray.addElement(2);
         setArray.addElement(2);
